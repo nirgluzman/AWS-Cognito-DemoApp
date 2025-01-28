@@ -36,3 +36,5 @@ https://docs.aws.amazon.com/cognito/
 ## Integrating Cognito authN & authZ with web and mobile apps
 
 https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-integrate-apps.html
+
+- Configure Amplify, https://docs.amplify.aws/gen1/javascript/tools/libraries/configure-categories/
