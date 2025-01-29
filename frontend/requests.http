@@ -1,0 +1,8 @@
+@url = https://7ww3k65qzb.execute-api.us-east-1.amazonaws.com/dev
+
+###
+GET {{url}}/public
+
+###
+GET {{url}}/private
+Authorization:
