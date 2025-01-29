@@ -29,6 +29,10 @@ https://docs.aws.amazon.com/cognito/
 - Other identity providers: Google, Facebook, GitHub etc.
 - We can login with these providers into Cognito.
 
+- `User pool groups` enables us to create and manage groups, add users to groups, and remove users
+  from groups. We use groups to create collections of users to manage their permissions or to
+  represent different types of users.
+
 ![](./images/cognito-user-pools.png) ![](./images/signup-flows.png)
 
 ## Cognito Identity Pool
@@ -38,3 +42,14 @@ https://docs.aws.amazon.com/cognito/
 https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-integrate-apps.html
 
 - Configure Amplify, https://docs.amplify.aws/gen1/javascript/tools/libraries/configure-categories/
+
+## Cognito Tokens
+
+https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-with-identity-providers.html
+
+Tokens authenticate users and grant access to resources. The claims in tokens are information about
+the user.
+
+- `idToken` - contains claims about the identity, e.g. username, family name, and email address.
+- `accessToken` - grants access to protected resources.
+- `refreshToken` - used to obtain new access tokens when the current one expires.
