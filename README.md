@@ -35,7 +35,11 @@ https://docs.aws.amazon.com/cognito/
 
 ![](./images/cognito-user-pools.png) ![](./images/signup-flows.png)
 
-## Cognito Identity Pool
+## Cognito Identity Pools
+
+- Provides temporary access to AWS resources - e.g.: files stored in an S3 bucket.
+
+![](./images/cognito-identity-pools.png)
 
 ## Integrating Cognito authN & authZ with web and mobile apps
 
